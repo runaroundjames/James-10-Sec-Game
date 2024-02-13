@@ -1,0 +1,73 @@
+body {
+  background-color: darkgrey;
+  color: black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4 {
+  color: teal;
+}
+
+h1 {
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+p {
+  padding-bottom: 50px;
+}
+
+h3 {
+  color: teal;
+}
+
+h4 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container {
+  padding-top: 50px;
+  border: 2px solid black;
+  background-color: lightgrey;
+}
+
+#user-input {
+  border: 2px solid black;
+}
+
+#reset-button {
+  background-color: black;
+  border: 2px solid teal;
+}
+
+input[type="range"] {
+  display: block;
+  margin: 0 auto;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 45rem;
+  padding: auto;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: black;
+  height: 1rem;
+}
+
+input[type="range"]::-moz-range-track {
+  background: black;
+  height: 1rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -12px;
+  background-color: teal;
+  height: 2rem;
+  width: 1rem;
+}

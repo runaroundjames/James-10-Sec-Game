@@ -7,8 +7,7 @@
   <title>James' 10 Sec Maths Game</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link href="index.css" rel="stylesheet" type="text/css" />
-  <script src="index.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -22,10 +21,18 @@
         =
         <input id="user-input" type="number" />
         <h4>Score: <span id="score"></span></h4>
-        <h4>High Score: <span id="updateHighScore"></span></h4>
+        <h4>High Score: <span id="high-score"></span></h4>
+        <span id="limit"><label for="numberLimit" id="number-limit-label">Number Limit: 10</label></span>
+        <br>
+        <br>
+        <input type="range" id="numberLimit" name="vol" min="10" max="100" step="10" value="10">
+        <br>
+        <br>
+        <button id="reset-button" class="btn btn-primary">Reset</button>
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
